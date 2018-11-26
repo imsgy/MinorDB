@@ -13,7 +13,7 @@ import (
 	"time"
 )
 
-// 设置DB全部变量
+// 设置DB全局变量
 var db *sql.DB
 // 初始化数据库链接
 func Pool() *DBPool{
