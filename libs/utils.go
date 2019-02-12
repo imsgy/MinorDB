@@ -1,7 +1,7 @@
 package libs
 
 import (
-	"base_api_go/tbkt/config"
+	"base_api_go/pro/config"
 	"encoding/base64"
 	"fmt"
 	"github.com/gin-gonic/gin"
