@@ -2,7 +2,7 @@ package libs
 
 // 引入go插件
 import (
-	"base_api_go/tbkt/config"
+	"base_api_go/pro/config"
 	"database/sql"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
