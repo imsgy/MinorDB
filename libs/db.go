@@ -476,7 +476,6 @@ func(p *DBPool)BulkCreate(params []map[string]interface{})(affectRows int, err e
 
 	// 组合数据写入SQL
 	InsertSql := fmt.Sprintf("INSERT INTO %v(%v) VALUES %v;", p.tableName, InsertCols, InsertArgsList)
-	fmt.Println(InsertSql, "11111111111111")
 	retData, err := p.pool.Exec(InsertSql)
 	if err != nil {
 		return 0, nil
