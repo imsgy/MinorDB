@@ -16,3 +16,6 @@ UserData := DB("base").Table("auth_user").Filter("account_id=? AND type=? AND st
 4. 更新记录Update方法:
 
 注: Filter入参即为where条件
+
+
+最新更新了连接池设置和事务控制
