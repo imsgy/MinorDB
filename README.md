@@ -1,4 +1,4 @@
-# imsgy-go
+# MinorDB
 
 基于go封装的一款db
 
